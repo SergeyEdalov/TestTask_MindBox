@@ -1,0 +1,11 @@
+D:\Study_programmist\Мои ошибочные проекты\TestTaskMindBox\TestTaskMindBoxLibrary\bin\Debug\net8.0\TestTaskMindBoxLibrary.deps.json
+D:\Study_programmist\Мои ошибочные проекты\TestTaskMindBox\TestTaskMindBoxLibrary\bin\Debug\net8.0\TestTaskMindBoxLibrary.dll
+D:\Study_programmist\Мои ошибочные проекты\TestTaskMindBox\TestTaskMindBoxLibrary\bin\Debug\net8.0\TestTaskMindBoxLibrary.pdb
+D:\Study_programmist\Мои ошибочные проекты\TestTaskMindBox\TestTaskMindBoxLibrary\obj\Debug\net8.0\TestTaskMindBoxLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study_programmist\Мои ошибочные проекты\TestTaskMindBox\TestTaskMindBoxLibrary\obj\Debug\net8.0\TestTaskMindBoxLibrary.AssemblyInfoInputs.cache
+D:\Study_programmist\Мои ошибочные проекты\TestTaskMindBox\TestTaskMindBoxLibrary\obj\Debug\net8.0\TestTaskMindBoxLibrary.AssemblyInfo.cs
+D:\Study_programmist\Мои ошибочные проекты\TestTaskMindBox\TestTaskMindBoxLibrary\obj\Debug\net8.0\TestTaskMindBoxLibrary.csproj.CoreCompileInputs.cache
+D:\Study_programmist\Мои ошибочные проекты\TestTaskMindBox\TestTaskMindBoxLibrary\obj\Debug\net8.0\TestTaskMindBoxLibrary.dll
+D:\Study_programmist\Мои ошибочные проекты\TestTaskMindBox\TestTaskMindBoxLibrary\obj\Debug\net8.0\refint\TestTaskMindBoxLibrary.dll
+D:\Study_programmist\Мои ошибочные проекты\TestTaskMindBox\TestTaskMindBoxLibrary\obj\Debug\net8.0\TestTaskMindBoxLibrary.pdb
+D:\Study_programmist\Мои ошибочные проекты\TestTaskMindBox\TestTaskMindBoxLibrary\obj\Debug\net8.0\ref\TestTaskMindBoxLibrary.dll
