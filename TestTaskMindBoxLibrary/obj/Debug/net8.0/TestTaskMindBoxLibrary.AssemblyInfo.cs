@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestTaskMindBoxLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20e6a8040752fab32efacd0a75bf4281f2519dbc")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestTaskMindBoxLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestTaskMindBoxLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

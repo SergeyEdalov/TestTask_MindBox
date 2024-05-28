@@ -14,12 +14,12 @@ public class Triangle : Figure
     }
     public override float CalculateArea()
     {
-        var halfPerimeter = (Sides[0] + Sides[1] + Sides[2]) / 2;
+        if (CheckSides()) { throw new ArgumentException("All sides must be more than zero."); }
         if (isRectangular())
         {
-            return (halfPerimeter - Sides[0])
-                * halfPerimeter - Sides[1];
+            return Sides[0] * Sides[1] / 2;
         }
+        var halfPerimeter = (Sides[0] + Sides[1] + Sides[2]) / 2;
         return (float)Math.Sqrt(halfPerimeter
             * (halfPerimeter - Sides[0])
             * (halfPerimeter - Sides[1])
@@ -28,10 +28,25 @@ public class Triangle : Figure
 
     private bool isRectangular()
     {
-        Array.Sort(Sides);
+        float[] copyArraySides = new float[3];
 
-        return Math.Pow(Sides[2], 2) ==
-            Math.Pow(Sides[0], 2) + Math.Pow(Sides[1], 2) ? true : false;
+        Array.Copy(Sides, copyArraySides, 3);
+        Array.Sort(copyArraySides);
+
+        if (Math.Pow(copyArraySides[2], 2) ==
+            Math.Pow(copyArraySides[0], 2) + Math.Pow(copyArraySides[1], 2))
+        {
+            Array.Copy(copyArraySides, Sides, 3);
+            return true;
+        }
+        return false;
     }
+
+    private bool CheckSides()
+    {
+        var res = Sides.Any(x => x <= 0);
+        return res;
+    }
+        
 }
 
